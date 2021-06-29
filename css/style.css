@@ -19,12 +19,9 @@ nav{
     top: 0;
     right: 0;
     z-index: 1;
-    /* background-color: greenyellow;
-    border: 1px solid black; */
 }
 nav li a{
     text-decoration: none;
-    /* color: black; */
     line-height: 50px;
     width: 50px;
     height: 50px;
@@ -34,7 +31,6 @@ nav li a{
     box-shadow: 2px 3px 3px grey;
 }
 nav li a:hover{
-    /* background-color: grey; */
     transition: 0.5s;
     box-shadow: 0px 0px 20px white;
 }
@@ -43,6 +39,8 @@ nav li{
     vertical-align: middle;
 }
 /* ///NAVBAR */
+
+/* MAIN SECTION */
 main .container{
     height: 100vh;
     width: 100%;
@@ -67,6 +65,9 @@ main .container{
     width: inherit;
     object-fit: contain;
 }
+/* ///MAIN SECTION */
+
+/* IMAGES ID PROPRIETY */
 #first{
     background-color: rgba(255, 0,0 , 0.8);
 }
@@ -79,3 +80,4 @@ main .container{
     background-color: rgba(255, 255,0 , 0.8);
     color: rgb(0, 128, 0 );
 }
+/* ///IMAGES ID PROPRIETY */
