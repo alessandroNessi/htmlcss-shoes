@@ -5,8 +5,36 @@
 }
 body{
     font-family: 'Roboto Mono', monospace;
+    font-weight:600;
+    color: black;
 }
 nav{
+    position: fixed;
+    content: "";
+    top: 0;
+    right: 0;
+    /* background-color: greenyellow;
+    border: 1px solid black; */
+}
+.inline-block{
+    display: inline-block;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0px 2px 2px grey;
+    margin: 50px 15px;
+}
+nav li{
+    text-align: center;
+    vertical-align: middle;
+}
+main{
     height: 100vh;
     width: 100vw;
     color: blueviolet;
